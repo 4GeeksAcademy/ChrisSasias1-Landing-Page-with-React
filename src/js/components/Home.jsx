@@ -16,10 +16,10 @@ const Home = () => {
 		},
 
 		{
-			name: "Suzuki GSX-R1000R", info: "Classic inline-four, over 200 hp, perfect mix of power and control.", image: "https://www.globalsuzuki.com/motorcycle/smgs/products/2023gsx-r1000r/img/main_ph.jpg"
+			name: "Suzuki GSX-R1000R", info: "Classic inline-four, over 200 hp, perfect mix of power,  control and experiencies.", image: "https://www.globalsuzuki.com/motorcycle/smgs/products/2023gsx-r1000r/img/main_ph.jpg"
 		},
 		{
-			name: "Honda CBR1000RR-R Fireblade SP", info: "MotoGP-inspired 999 cc screamer with top-tier electronics, up to 315 km/h.", image: "https://powersports.honda.com/motorcycle/supersport/-/media/products/family/cbr1000rr-r-fireblade-sp/hero-banner/mobile/2025/2025-cbr1000rr-r-fireblade-sp-hero-banner.jpg"
+			name: "Honda CBR1000RR-R", info: "MotoGP-inspired 999 cc screamer with top-tier electronics, up to 315 km/h.", image: "https://powersports.honda.com/motorcycle/supersport/-/media/products/family/cbr1000rr-r-fireblade-sp/hero-banner/mobile/2025/2025-cbr1000rr-r-fireblade-sp-hero-banner.jpg"
 		}
 
 	];
@@ -33,7 +33,7 @@ const Home = () => {
 			<div className=" row d-flex justify-content-center">
 				{motos.map((item, index) => (
 					<div className="col-lg-3 col-md-6 col-12">
-						<Card key={index} nombre={item.nombre} info={item.info} image={item.image} />
+						<Card key={index} name={item.name} info={item.info} image={item.image} />
 					</div>
 				))}
 
