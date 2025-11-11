@@ -16,7 +16,7 @@ export const Jumbotron = () => {
         <>
 
 
-            <div className="container" style={{ paddingTop: '6rem' }}>
+            <div className="container px-1" style={{ paddingTop: '6rem'}}>
                 <div className="p-5 mb-4 rounded-3 shadow-sm " style={{ backgroundColor: "rgb(234, 237, 237)" }}>
                     <div className="container-fluid py-5">
                         <h1 className="display-4 fw-semibold">A Warm Welcome!</h1>
